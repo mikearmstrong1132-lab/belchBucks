@@ -1,53 +1,43 @@
-# belchBucks
+# BelchBucks Project Documentation
 
-## Project Overview
-belchBucks is a robust application designed to manage billing and finance for various services. Its user-friendly interface and efficient backend make it easy for users to track expenses, generate reports, and manage transactions seamlessly.
+## Installation
+To install the BelchBucks project, clone the repository and install the required dependencies:
 
-## Installation Instructions
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<owner>/belchBucks.git
-   cd belchBucks
-   ```
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Start the application**:
-   ```bash
-   npm start
-   ```
+```bash
+git clone https://github.com/mikearmstrong1132-lab/belchBucks.git
+cd belchBucks
+npm install
+```
 
 ## Features
-- User authentication and authorization.
-- Expense tracking and categorization.
-- Automated invoice generation.
-- Reports generation (monthly, yearly).
-- Multi-currency support.
-- Intuitive user interface.
+- **User Authentication**: Secure login and registration process.
+- **Wallet Management**: Users can manage their virtual wallets.
+- **Transaction History**: Keeps track of user transactions.
+- **Rewards Program**: Earn rewards points for transactions.
 
 ## Tech Stack
-- Frontend: React.js
-- Backend: Node.js with Express
-- Database: MongoDB
-- Authentication: JWT
-- Styling: CSS/Bootstrap
-- Testing: Jest
+- **Frontend**: React.js
+- **Backend**: Node.js with Express
+- **Database**: MongoDB
+- **Deployment**: Heroku
 
-## How to Contribute
-1. Fork the repository.
-2. Create a new branch for your feature/bug fix:
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/new-feature
-   ```
-5. Create a pull request detailing your changes.
+## Usage
+After installation, you can start the server:
 
-Thank you for considering contributing to belchBucks!
+```bash
+npm start
+```
+
+Navigate to `http://localhost:3000` in your web browser to view the application.
+
+## FAQ
+**Q: How do I reset my password?**  
+A: Use the 'Forgot Password' option on the login page to receive reset instructions.
+
+**Q: Can I use this on mobile?**  
+A: Yes, the application is responsive and can be used on mobile devices.
+
+**Q: Is there a support channel?**  
+A: For any issues, please contact support at support@belchbucks.com.
+
+---
